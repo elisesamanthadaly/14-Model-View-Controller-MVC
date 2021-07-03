@@ -74,7 +74,7 @@ input {
   font-size: 1.3rem;
   text-decoration: none;
   padding: 6px 5px;
-  width: 100%;
+  width: 49%;
   display: block;
   margin: 5px 0;
   border-radius: var(--border-radius);
@@ -93,8 +93,16 @@ input {
   box-shadow: 2px 2px var(--dark);
 }
 
+#delete-btn:hover {
+  background-color: red;
+}
+
 .btn-inline {
   display: inline;
+}
+
+.btn a {
+  color: var(--primary);
 }
 
 .li-inline {
@@ -182,6 +190,7 @@ input {
 
 .card-body {
   padding: 1%;
+  color: var(--dark);
 }
 
 /* FORM */
